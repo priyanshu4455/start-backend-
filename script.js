@@ -81,7 +81,7 @@ var ansp= abcd();             // function call  --   ansp=12
 async function abcde(){
      var blob = await fetch('https://api.github.com/users');
         var res = await blob.json();
-        console.log(res);
+        console.log(res.results);
 }
 
 abcde();
